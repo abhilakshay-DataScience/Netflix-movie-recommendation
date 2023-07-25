@@ -42,22 +42,22 @@ with col2:
 with col3:
     st.write(' ')
 
-imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public")
-imageUrls = [
-    fetch(429617),
-    fetch(370665),
-    fetch(841755),
-    fetch(558),
-    fetch(24428),
-    fetch(100402),
-    fetch(10757),
-    fetch(155),
-    fetch(598),
-    fetch(914),
-    fetch(255709),
-    fetch(572154)
-     ]
-imageCarouselComponent(imageUrls=imageUrls, height=200)
+# imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public")
+# imageUrls = [
+#     fetch(429617),
+#     fetch(370665),
+#     fetch(841755),
+#     fetch(558),
+#     fetch(24428),
+#     fetch(100402),
+#     fetch(10757),
+#     fetch(155),
+#     fetch(598),
+#     fetch(914),
+#     fetch(255709),
+#     fetch(572154)
+#      ]
+# imageCarouselComponent(imageUrls=imageUrls, height=200)
 
 
 #******************************************************************************************#
